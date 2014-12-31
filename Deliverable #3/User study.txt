@@ -1,0 +1,6 @@
+Features to add:
+
+1. Improve help on how to draw a polygon
+2. Improve help on deletion of objects
+3. Remove my insignia as demo and replace with something simpler to reduce lag time
+4. Improve tutorial

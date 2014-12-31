@@ -1,0 +1,32 @@
+Updates to Deliverable #1
+1. Add Tkinter Entry textbox and 12 more buttons
+	a. Add point using textbox inputs
+	b. Shift point/line/polygon using textbox inputs
+	c. Move point/line/polygon using textbox inputs
+	d. Copy and shift point/line/polygon using textbox inputs
+	e. Rotate line/polygon using textbox inputs (No point because point rotation is about itself)
+	f. Resize line/polygon using textbox inputs (No point because point rotation is about itself)
+	g. Change point size from 1 to 10 and 10 to 1
+	h. Change transparency from stipple gray 50 to opaque
+	i. Change background color
+	j. Shift the view
+	k. Rotate the view
+	l. Change to default view
+
+2. Add preview for drawing lines/curves/polygon
+	a. It does not show for 2 points only in a curve because the second point is a control point (NOT a bug)
+
+3. Load and save files in .mdl format using tkfiledialog. The values are hashed to prevent corruption of save files by "naughty TA" such as "Wang Zhiyu" (just joking)
+
+4. Set boundaries to zoom in/out, shifting of views, adding/moving/rotating of points to prevent stake overflow problem as spotted by TA Wang Zhiyu.(He cause my custom comparator to fail due to int becoming long int)
+
+5. Change the arrow shape so it looks nicer. 
+
+6. Streamling code and creating utility python file to store all the global algorithms
+	a. Reason is that some distinct classes share similar algorithms, for instance
+	MyButton class and Polygon class on ray casting
+
+7. Found an inconsistency in Python's activefill in coloring for Tkinter. The python's activefill use mouse detection algorithm (same effect as my raycasting) for detecting mouseover and a different fill algorithm to color it. By right, for such complex polygons, the fill should follow that of mouse detection algorithm instead. 
+	a. Potential fix is not easy. (pixel by pixel is too slow in python, results in total
+	non-response in python program)
+	Note: My implementation of raycast DOES NOT HAVE A BUG!!!!!! 

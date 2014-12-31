@@ -1,0 +1,17 @@
+Monday 11/18/2013
+08:30 - 09:30: Adding remaining buttons
+11:30 - 13:30: Adding remaining buttons
+18:30 - 23:30: Fix zoom problems
+Hours: 8 hours
+
+Tuesday 11/19/2013
+09:30 - 11:30: Streamling code
+12:30 - 17:30: Streamling code
+18:30 - 19:30: Streamling code
+Hours: 8 hours
+
+Wednesday 11/20/2013
+15:30 - 16:30: Add new features to file/load and save 
+Hours: 1 hour
+
+Total: 17 hours
